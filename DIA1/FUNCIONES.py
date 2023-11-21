@@ -14,7 +14,16 @@ def cambiar_pesos_dolares(pesos):
     dolares= pesos / valor_dolar
     return dolares
 
+def contar_vocales(frase):
+    frase = frase.lower() #convierte a minuscula
+    vocales='aeiou'
+    contador= 0
+
+    for letra in frase:
+        if letra in vocales:
+            contador +=1
+    return contador   
 
 #calcular_edad()
 #print(mensaje_bienvenida("Admin123","123","Armando"))
-print(cambiar_pesos_dolares(1000))
+#print(cambiar_pesos_dolares(1000))
