@@ -26,5 +26,16 @@ while True:
     break
 
 
+lista_1 = [1, 2, 3, 4, 5]
+lista_2 = [3, 4, 5, 6, 7]
+lista_union = []
 
+for elemento in lista_1:
+    if elemento in lista_2 and elemento not in lista_union:
+        lista_union.append(elemento)
 
+lista_original = [1, 2, 2, 3, 4, 4, 5, 5, 6, 7, 7]
+lista_sin_duplicados = []
+for elemento in lista_original:
+    if elemento not in lista_sin_duplicados:
+        lista_sin_duplicados.append(elemento)

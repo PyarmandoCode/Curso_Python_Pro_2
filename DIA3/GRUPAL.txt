@@ -12,3 +12,11 @@ Tienes dos listas: una de claves y otra de valores. Crea un diccionario combinan
 
 Ejercicio 5: Contar elementos únicos en una lista de listas
 Dada una lista que contiene sublistas, cuenta la cantidad total de elementos únicos en todas las sublistas.
+
+grupo 1  = 4
+grupo 2  = 4
+grupo 3  = 4
+
+"Fomenten el trabajo en grupo"
+MISION COMO GRUPO= "TERMINAR LOS 5 EJERCICIOS"
+LINK PDF PYTHON

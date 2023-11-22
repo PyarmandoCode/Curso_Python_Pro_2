@@ -1,0 +1,10 @@
+{'cod': 'A100', 'AREA': 'SISTEMAS', 'HT': 10, 'BON': 0, 'SUSBT': 300, 'NETO': 300}:
+{'cod': 'A200', 'AREA': 'SISTEMAS', 'HT': 20, 'BON': 0, 'SUSBT': 600, 'NETO': 600}:
+{'cod': 'A300', 'AREA': 'CONTABILIDAD', 'HT': 40, 'BON': 0, 'SUSBT': 1200, 'NETO': 1200}:
+{'cod': 'A400', 'AREA': 'CONTABILIDAD', 'HT': 50, 'BON': 0, 'SUSBT': 1500, 'NETO': 1500}:
+{'cod': 'A500', 'AREA': 'RH', 'HT': 23, 'BON': 0, 'SUSBT': 690, 'NETO': 690}:
+{'cod': 'A600', 'AREA': 'RH', 'HT': 81, 'BON': 0, 'SUSBT': 2430, 'NETO': 2430}:
+{'cod': 'A700', 'AREA': 'RH', 'HT': 12, 'BON': 0, 'SUSBT': 360, 'NETO': 360}:
+{'cod': 'A800', 'AREA': 'MARKETING', 'HT': 1, 'BON': 0, 'SUSBT': 30, 'NETO': 30}:
+{'cod': 'A900', 'AREA': 'MARKETING', 'HT': 7, 'BON': 0, 'SUSBT': 210, 'NETO': 210}:
+{'cod': 'A000', 'AREA': 'SISTEMAS', 'HT': 120, 'BON': 10, 'SUSBT': 3600, 'NETO': 3610}:
