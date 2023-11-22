@@ -1,12 +1,12 @@
-# personas = { 
-#              "a1":"jose",
-#              "a2":"pedro",
-#              "a3":"jose"
-#              } #DICT
+personas = {
+             "a1":"jose",
+             "a2":"pedro",
+             "a3":"jose"
+             } #DICT
 
-# personas = ("JOSE","PEDRO","JUAN") #TUPLE INMUTABLE
+personas = ("JOSE","PEDRO","JUAN") #TUPLE INMUTABLE
 
-# personas = {"JOSE","PEDRO","JUAN"} #SETS
+personas = {"JOSE","PEDRO","JUAN"} #SETS
 
 personas = ["JOSE","PEDRO","JUAN"] #LIST MUTABLE
 personas[0]="JOSE ARTURO" #Modificar un Elemento de la lista

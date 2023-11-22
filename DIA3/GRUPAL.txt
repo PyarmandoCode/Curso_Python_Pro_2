@@ -1,0 +1,14 @@
+Ejercicio 1: Unión de listas
+Escribe un programa que tome dos listas y cree una tercera lista que contenga elementos que están presentes en ambas listas, sin elementos duplicados.
+
+Ejercicio 2: Diccionario de frecuencias
+Crea una función que tome una cadena como entrada y devuelva un diccionario con cada carácter de la cadena como clave y el número de veces que aparece como valor.
+
+Ejercicio 3: Eliminar duplicados de una lista
+Escribe un programa que tome una lista y elimine todos los elementos duplicados, manteniendo el orden original.
+
+Ejercicio 4: Combinar listas en un diccionario
+Tienes dos listas: una de claves y otra de valores. Crea un diccionario combinando ambas listas.
+
+Ejercicio 5: Contar elementos únicos en una lista de listas
+Dada una lista que contiene sublistas, cuenta la cantidad total de elementos únicos en todas las sublistas.
