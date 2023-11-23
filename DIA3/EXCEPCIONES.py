@@ -36,7 +36,7 @@ def generar_txt(data):
     with open(nombre_archivo,'w') as archivo:
         for items  in data:
             archivo.write(f"{items}:\n")
-        print(f"Los Resultados se hab guardado en el archivo {nombre_archivo}")    
+        print(f"Los Resultados se han guardado en el archivo {nombre_archivo}")    
 try:
     for items in planilla_nov:
         items["SUSBT"]=items["HT"]*30
