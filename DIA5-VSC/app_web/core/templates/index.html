@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <center>
+            <h1>Bienvenidos a mi Tienda de Discos</h1>
+        <center/>
+        <div class="container mt-5">
+            <div class="row">
+
+             
+            {% for items in misproductos %}
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src={{items.imagen}} >
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo:{{ items.nombre}}</h5>
+                            <p class="card-text">Precio:{{items.precio}}</p>
+                            <button type="button" class="btn btn-success">Comprar</button>
+                        </div>
+                    </div>
+                </div>            
+            {% endfor %}    
+
+                
+                
+
+            </div>
+        </div>         
+
+    <!-- Bootstrap JS (jQuery primero, luego Popper.js, luego Bootstrap JS) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} <h1> Bienvenido a Mi Sitio Web de Ventas de discos -Premium</h1>
+<ul>
+    {% for  items in misproductos %}
+        <li>{{ items.nombre }} - {{items.precio}}</li>
+    {% endfor %}
+<ul>     {% endcomment %}
+
